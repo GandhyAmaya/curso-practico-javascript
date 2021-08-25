@@ -1,0 +1,131 @@
+
+.header{
+    background-color: #ACF19D;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+  
+
+}
+.pantalla{
+background: linear-gradient(#ACF19D, #2FF802 );
+padding: 40px 0px;
+height: 100%;
+
+}
+.pantalla h2{
+    display: flex;
+    justify-content: center;
+}
+.pantalla__imagen{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.pantalla__imagen--cuadrado{
+    margin-left: 90px;
+}
+.pantalla__imagen--circulo{
+    margin-right: 200px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  
+}
+.inputs_cuadrado{
+    display: flex;
+    margin-left: 40px;
+    flex-direction: column;
+}
+.inputs_cuadrado p{
+    block-size: 20px;
+    background-color: lavender;
+    border: ivory;
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 5px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: normal;
+    font-weight: 120;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+.inputs_cuadrado input{
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.inputs_triangulo{
+    display: flex;
+    flex-direction: column;
+}
+.inputs_triangulo input{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .inputs_circulo{
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.inputs_circulo input{
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+  }
+  .inputs button{
+    background-color: rgba(155, 36, 36, 0.3);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    height: 30px;
+    letter-spacing: 1px;
+    margin:10px 0px;
+
+}
+.inputs input{
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    outline: none;
+    height: 5px;
+    
+}
+body {
+    margin: 0px;
+    width: 100%;
+  }
+  .footer{
+    background-color: #2FF802 ;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.footer a{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesDescuento.css">
+    <title>Porcentajes y descuentos</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Porcentajes y Descuentos</h1>
+    </header>
+    <section class="pantalla__prinipal">
+        <section class="pantalla__prinipal--Artuculo">
+            <img src="./Articulo.PNG" alt="Articulo">
+        </section>
+
+        <section class="pantalla__prinipal--Compra">
+            
+            <input id="PrecioProduto" type="number" placeholder="Precio del Producto">
+            <input id="Descuento" type="number" placeholder="Porcentaje de Deescuento">
+            <div>
+                <select id="combo">
+                    <!-- Opciones de la lista -->
+                    <option value="1"selected>None</option>
+                    <option value="2">Platzi Basic</option>
+                    <option value="3">platzi Plus</option> <!-- Opción por defecto -->
+                    <option value="4">Platzi Expert Pluss ++</option>
+                </select>
+
+            </div>
+            <button type="button" onclick="calcularDescuento()">
+                Calcular Descuento
+            </button>
+            <p id="resultadoDescuento" >Resultado</p>
+
+
+        </section>
+        </section>      
+
+    <footer class="footer">
+        <a href="/">Términos de uso </a>
+        <a href="/">Declaración de privacidad </a>
+        <a href="/">Centro de ayuda </a>
+    </footer>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
